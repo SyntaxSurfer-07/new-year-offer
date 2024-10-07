@@ -72,13 +72,13 @@ main section {
   position: relative;
 }
 
-.failures-image{
+.failures-image {
   width: 570px;
   height: 725px;
   position: relative;
 }
 
-.failures-round-div{
+.failures-round-div {
   background-color: rgba(241, 91, 34, 0.2);
   width: 528px;
   height: 528px;
@@ -87,11 +87,11 @@ main section {
   bottom: 0;
   left: 0;
 }
-.failures-image img{
-    position: absolute; 
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%); 
+.failures-image img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .failures-content {
@@ -137,6 +137,83 @@ main section {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* My Plans Related styles */
+
+.my-plans {
+  text-align: center;
+}
+.my-plans-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.planning-items {
+  display: flex;
+  gap: 86px;
+  justify-content: space-between;
+}
+.planning-items .items img {
+  width: 93px;
+  height: 93px;
+  margin-bottom: 30px;
+}
+.items .items-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.items .items-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Call Now Banner related styles */
+
+.call-now {
+  max-width: 1140px;
+  height: 300px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.gradient-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  
+}
+
+.call-now-content {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  text-align: start;
+  align-items: center;
+}
+.call-now-title {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 460px;
+  height: 95px;
+  word-wrap: break-word;
+  margin-bottom: 24px;
+}
+.call-now-content button {
+  padding: 21px 36px;
+  border: 0;
+  background-color: #ffffff;
+  color: #f15b22;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* Footer related styles */
