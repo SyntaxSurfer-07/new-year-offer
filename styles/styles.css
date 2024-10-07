@@ -66,22 +66,35 @@ main section {
 
 .failures {
   display: flex;
-  background: #fff8f3;
   max-width: 1072px;
   height: 725px;
-  gap: 87px;
+  gap: 90px;
   position: relative;
 }
 
-.failures-image {
+.failures-image{
   width: 570px;
-  height: 666px;
+  height: 725px;
+  position: relative;
+}
+
+.failures-round-div{
+  background-color: rgba(241, 91, 34, 0.2);
+  width: 528px;
+  height: 528px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.failures-image img{
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); 
 }
 
 .failures-content {
-  /* position: absolute;
-    top: 1175px;
-    right: 322px; */
   margin-top: 150px;
   margin-right: 0px;
 }
@@ -136,13 +149,13 @@ main section {
   padding: 130px 230px;
   justify-content: space-between;
 }
-.footer-container #footer-left{
-    width: 485px;
-    height: auto;
+.footer-container #footer-left {
+  width: 485px;
+  height: auto;
 }
-.footer-container #footer-right{
-    width: 325px;
-    height: auto;
+.footer-container #footer-right {
+  width: 325px;
+  height: auto;
 }
 
 .footer-title {
@@ -161,21 +174,21 @@ main section {
   line-height: 26px;
   word-wrap: break-word;
 }
-.footer-description{
-    margin-bottom: 24px;
+.footer-description {
+  margin-bottom: 24px;
 }
-.footer-email{
-    margin-bottom: 16px;
+.footer-email {
+  margin-bottom: 16px;
 }
-.footer-phone{
-    margin-bottom: 32px;
+.footer-phone {
+  margin-bottom: 32px;
 }
 
-.footer-container .social-icons{
-    display: flex;
-    max-width: 180px;
-    height: auto;
-    justify-content: space-between;
+.footer-container .social-icons {
+  display: flex;
+  max-width: 180px;
+  height: auto;
+  justify-content: space-between;
 }
 
 .form-title {
@@ -187,16 +200,16 @@ main section {
 }
 .subscribe input {
   border-radius: 8px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #f3f3f3;
   font-weight: 400;
   background: #151414;
   padding: 22px 22px;
   margin-bottom: 16px;
 }
 .subscribe input[type="submit"] {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   color: #f15b22;
   font-size: 20px;
